@@ -1,0 +1,258 @@
+// Your custom SCSS should be written here...
+@import '../bower_components/gumby-parallax/_parallax.scss';
+
+
+body {
+	background-color:#0070c0;
+	margin:0;
+	padding:0;
+	color:#000;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.navbar {
+	background-color:#0070c0;
+	padding:5px 0 5px 0;
+	-webkit-box-shadow:0 0 6px #444;
+	-moz-box-shadow:0 0 6px #444;
+	box-shadow: 0 0 6px #444;
+}
+
+.navbar ul li a{
+	color:#fff;
+	text-shadow:none;
+}
+
+.navbar .row ul li a:hover {
+	background-color:rgb(4,130,220);
+	color:#fff;
+	border:1px outset #0482dc;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px;
+}
+
+.navbar .row ul .active {
+	background-color:rgba(4,130,220, 0.3);
+	color:#fff;
+	border:1px inset #0482dc;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px;
+	-webkit-box-shadow:inset 0 0 6px #444;
+}
+
+#announceMessage {
+	position:relative;
+	top:300px;
+}
+.parallax {
+	background:url(../img/nice2.png) no-repeat 100%;
+	background-size:cover;
+	height:660px;
+	margin-top:-95px;
+}
+
+.block {
+	@include row();
+}
+
+.ticket{
+	margin-top:370px;
+}
+
+section .airLines{
+	background:rgb(255,255,255);
+	width:100%;
+	min-height:200px;
+	margin:-90px 0 70px 0;
+	border:10px solid #bad337;	
+}
+
+article .valign{
+	background-color:#fff;
+}
+
+section .services {
+	background-color:#fff;
+	min-height:70px;
+	margin:-40px 0 90px 0;
+	padding:0 15px 0 15px;
+	border-top:10px solid #bad337;
+}
+
+section .contact {
+	min-height:15px;
+	margin:25px 0 6px 0;
+	padding:5 15px 0 15px;
+}
+
+section .about-us{
+	background-color:#fff;
+	min-height:70px;
+	margin:25px 0 4px 0;
+	padding:0 15px 0 15px;
+	border-top:10px solid #bad337;
+	}
+
+.page-heading-1 {
+	position:relative;
+	font-size:15pt;
+	font-weight:bold;
+	margin:-64px 0 0 33px;
+	color:#fff;
+}
+
+.page-heading-2 {
+	position:relative;
+	font-size:15pt;
+	font-weight:bold;
+	margin:-64px 0 0 33px;
+	color:#fff;	
+}
+
+.input {
+	height:64px;
+}
+
+.page-heading-3 {
+	position:relative;
+	font-size:15pt;
+	font-weight:bold;
+	margin:-64px 0 0 40px;
+	color:#fff;	
+}
+.img-heading {
+	position:relative;
+	left:-14px;
+	top:-13px;
+}
+
+.map {
+	background-color:#fff;
+	padding:12px;
+}
+
+.header {
+	background-color:#fff;
+	padding:15px;
+	min-heignt:35px;
+	margin-bottom:4px;
+}
+
+.header-social {
+	background-color:#fff;
+	padding:15px;
+	min-heignt:35px;
+	margin:4px 0 4px 0;	
+}
+
+.flights {
+	background-color:#fff;
+	min-height:90px;
+	padding:12px;
+	color:#000;
+}
+
+.social {
+	background-color:#fff;
+	width:100%;
+	min-height:260px;
+	padding:12px;
+	margin-bottom:4px;
+}
+
+.social-media li {
+	display:inline-block;
+	padding:2px;
+	margin:0 0 0 5px;
+}
+
+#powered-by {
+	float:right;
+	padding:4px;
+	margin:0 5px;
+	color:#fff;
+	-webkit-box-shadow: 0 0 6px #444;
+	-moz-box-shadow: 0 0 6px #444;
+	box-shadow: 0 0 6px #444;
+}
+
+.address {
+	background-color:#fff;
+	min-height:90px;
+	padding:12px;
+	margin-bottom:4px;
+	color:#000;
+}
+
+#about-image{
+	border-radius:50%;
+}
+
+.footer {
+	margin-top:40px;
+	color:#fff;
+}
+
+.team-group {
+	background-color:#fff;
+	margin-bottom:4px;
+	padding:12px;
+}
+
+.service-group {
+	background-color:#fff;
+	margin-bottom:4px;
+	padding:12px;
+}
+
+.space {
+	margin-bottom:20px;
+}
+
+.modal .content{
+	background-color:rgb(186,211,55);
+}
+
+.modal .content .input {
+	background-color:rgba(255,255,255, 0.2);
+	border:2px solid transparent;
+	border-radius:0;
+	height:40px;
+	-webkit-box-shadow:inset 0 0 6px #444;
+	color:#fff;
+}
+
+.modal .content .textarea {
+	height:85px;
+}
+
+.thank-you {
+	position:relative;
+	background-color:rgba(255,255,255,0.9);
+	padding:12px;
+	top:-320px;
+}
+
+.thank-you h1 {
+	color:#bad337;
+}
+
+#thank-you-content {
+margin-top:-450px;	
+}
+
